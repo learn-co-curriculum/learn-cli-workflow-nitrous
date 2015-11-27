@@ -18,21 +18,31 @@ Let's walk through the process. For now, just read along. **You don't need to ac
 
 **Key takeaway: Use the Open button to get started with a lab.**
 
-Getting to work on a new lab is very simple: you'll want to simply click the "Open" button on the toolbar. This automatically will invoke the Learn CLI (a command line application we built to make things) and will get this lab onto your computer in a state where you can start working on it. You may see your Terminal flash open then your text editor will open with the content of the lab.
+Getting to work on a new lab is very simple: you'll want to simply click the "Open" button on the toolbar.
 
-Pro Tip #1: If you ever need to re-open a lab you've previously opened, you can just hit the Open button again.  
+![Nitrous Open](https://curriculum-content.s3.amazonaws.com/learn-ver/nitrous_open_highlight.png)
 
-Pro Tip #2: Another way to open the current lab you should be working on, is to use the Learn CLI yourself by running the `learn open` command from your terminal. This is exactly what the Open button is doing behind the scenes.  
+This automatically open your Nitrous IDE with the lab in a state where you can start working on it.
+
+Pro Tip #1: You can always open your Nitrous IDE from the link to your Nitrous under your profile avatar. ![Nitrous IDE](https://dl.dropboxusercontent.com/s/8ins60cxu71i7v3/2015-11-27%20at%2011.57%20AM.png)
+
+Pro Tip #2: Another way to open the current lab you should be working on, is to use the Learn CLI yourself by running the `learn open` command from your nitrous terminal. This is exactly what the Open button is doing behind the scenes.  
 
 ### What does the Open button do?
 
-As described above, when you hit the Open button in your browser, Learn actually invokes the Learn CLI and runs the `learn open` command on your computer which does the following:
+As described above, when you hit the Open button in your browser, Learn actually invokes the Learn CLI and runs the `learn open` command on your Nitrous IDE which does the following:
 
 1. It uses the GitHub API to "fork" the lab on your behalf. This means it creates a copy of the lab's repository for you and associates it with your GitHub account.
-2. It then "clones" that copy of the repo down to your computer automatically, so that you have a local copy of the source code to work with. This is what you'll be using to solve the lab.
-3. It then "cd's" into the lab's directory on your computer and opens your text editor with the contents of the lab
+2. It then "clones" that copy of the repo down to your nitrous IDE automatically, so that you have a local copy of the source code to work with. This is what you'll be using to solve the lab.
+3. It then "cd's" into the lab's directory on your nitrous.
+
+**To start working on the lab, navigate in the file browser to the labs directory with `nitrous/code/labs`.**
 
 At this point, you'll be ready to start coding your solution.
+
+![Work Mode](https://curriculum-content.s3.amazonaws.com/learn-ver/nitrous_full_view_at_lab_start.png)
+
+This setup, with the lab's directory open in both the console and the file browser, that's the state you want to be in when working on a lab on Learn. It means you're ready.
 
 ## Solving a Lab
 
@@ -40,7 +50,7 @@ At this point, you'll be ready to start coding your solution.
 
 ### Overview
 
-Once you've opened your lab locally, you'll be ready to start solving it. This is the fun part!
+Once you've opened your lab in Nitrous, you'll be ready to start solving it. This is the fun part!
 
 All of the labs on Learn are written with an RSpec test suite that you can use to confirm that you've fulfilled the requirements of the lab. RSpec is a testing library that ruby developers use everyday, so again, as you work on Learn, you're also learning the same tools and workflows that developers use.
 
