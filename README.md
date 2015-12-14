@@ -18,7 +18,7 @@ Let's walk through the process. For now, just read along. **You don't need to ac
 
 **Key takeaway: Use the Open button to get started with a lab.**
 
-Getting to work on a new lab is very simple: you'll want to simply click the "Open" button on the toolbar.
+Getting to work on a new lab is very simple: you'll want to simply click the "Open" button on the toolbar. Note: This button is only active for labs and will be inactive for lessons that do not require coding to pass.
 
 ![Nitrous Open](https://curriculum-content.s3.amazonaws.com/learn-ver/nitrous_open_highlight.png)
 
