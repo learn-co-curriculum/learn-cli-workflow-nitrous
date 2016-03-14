@@ -22,7 +22,7 @@ Getting to work on a new lab is very simple: you'll want to simply click the "Op
 
 ![Nitrous Open](https://curriculum-content.s3.amazonaws.com/learn-ver/nitrous_open_highlight.png)
 
-This automatically open your Nitrous IDE with the lab in a state where you can start working on it.
+This automatically opens your Nitrous IDE with the lab in a state where you can start working on it.
 
 Pro Tip #1: You can always open your Nitrous IDE from the link to your Nitrous under your profile avatar. ![Nitrous IDE](https://dl.dropboxusercontent.com/s/8ins60cxu71i7v3/2015-11-27%20at%2011.57%20AM.png)
 
@@ -180,4 +180,6 @@ Use `learn submit` to submit your solution.**
 
 You are now ready to practice the Learn workflow with your first lab! Congratulations!
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/learn-cli-workflow-nitrous' title='The Learn CLI Workflow'>The Learn CLI Workflow</a> on Learn.co and start learning to code for free.</p>
+<a href='https://learn.co/lessons/learn-cli-workflow-nitrous' data-visibility='hidden'>View this lesson on Learn.co</a>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/learn-cli-workflow-nitrous'>Learn Workflow</a> on Learn.co and start learning to code for free.</p>
