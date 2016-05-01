@@ -183,5 +183,3 @@ You are now ready to practice the Learn workflow with your first lab! Congratula
 <a href='https://learn.co/lessons/learn-cli-workflow-nitrous' data-visibility='hidden'>View this lesson on Learn.co</a>
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/learn-cli-workflow-nitrous'>Learn Workflow</a> on Learn.co and start learning to code for free.</p>
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/learn-cli-workflow-nitrous'>Learn Workflow</a> on Learn.co and start learning to code for free.</p>
