@@ -68,13 +68,13 @@ Before doing any work, run the test suite from your local clone with the `learn`
 
 ![Failing Test](https://curriculum-content.s3.amazonaws.com/learn-ver/nitrous_lab_fail.png)
 
-I know error messages or failure messages are intimidating, but try to read them. Developers are detectives, constantly sleuthing for the bug that's the culprit. Errors and failures are our clues, they illuminate the path forward.
+I know error messages or failure messages are intimidating, but try to read them. Developers are detectives, constantly sleuthing for the bug that's the culprit. Errors and failures are our clues; they illuminate the path forward.
 
-We know that the idea of "things being broken" is frightening at first. Broken things are stressful and frustrating! But guess what? As an engineer, as a programmer, the default state of anything you work on is broken. The things you are programming are always broken. Get used to it. Your job is to fix broken things. You can do it. Embrace the errors. The obstacle is the way.
+We know that the idea of "things being broken" is frightening at first. Broken things are stressful and frustrating! But guess what? As an engineer, as a programmer, the default state of anything you work on is broken. The things you are programming are always broken. Get used to it. Your job is to fix broken things. You can do it. Embrace the errors. The obstacle is the way forward.
 
 ### 3. Read the tests
 
-Read the test suite in `spec/`. Open up the lab in your text editor, open the files in the `spec` directory that are not named `spec_helper.rb`. `spec_helper.rb` is a helper file to configure your tests which you can ignore. Any file in `spec` that ends in `_spec.rb` though is a test file and while testing code and RSpec are advanced, we believe the semantics are easy to understand, the meaning of the test is comprehensible, even if the code is not.
+Read the test suite in `spec/`. Open up the lab in your text editor, and open the files in the `spec` directory that are not named `spec_helper.rb`. `spec_helper.rb` is a helper file to configure your tests which you can ignore. Any file in `spec` that ends in `_spec.rb` though is a test file, and, while testing code and RSpec are advanced, we believe the semantics are easy to understand and the meaning of the test is comprehensible, even if the code is not.
 
 For example, soon you'll be solving your first lab. The lab includes a file `spec/first_lab_spec.rb`. The contents will be:
 
@@ -94,7 +94,7 @@ Beyond all the syntax and code above, can you decipher what we're asking for? Wh
 
 1. You'll have 10% more understanding of how to solve the lab.
 
-2. You'll get better at reading tests and we bet that the next test you read you'll get 12% of it and constantly see improvement through old fashioned practice and determination.
+2. You'll get better at reading tests, and we bet that on the next test you'll get 12% of it and constantly see improvement through old fashioned practice and determination.
 
 3. Almost unconsciously, like Mr. Miyagi in the Karate Kid, you'll actually learn how to read and write tests proficiently, "Wax on, wax off" style.
 
@@ -102,11 +102,11 @@ Beyond all the syntax and code above, can you decipher what we're asking for? Wh
 
 4. You'll have learned Test-Driven-Development, TDD, one of the most sought after skills of a professional developer.
 
-This cycle, reviewing the README, running the tests, reading failure messages, reading the tests, editing your code, and trying it all again, is how you are supposed to code, it's what programmers do all day. We break things, we define the error with a test, we fix the code, we pass the test, we repeat.
+This cycle – reviewing the README, running the tests, reading failure messages, reading the tests, editing your code, and trying it all again – is how you are supposed to code; it's what programmers do all day. We break things, we define the error with a test, we fix the code, we pass the test, we repeat.
 
 ### 4. Write Your Code
 
-After forking and cloning the lab, opening the lab in a text editor, reading the README, running the test suite, reading the errors, and reading the tests themselves in `spec`, you're ready to code. You've armed yourself with every weapon available in the arsenal of your intellect and we know you can program triumphantly.
+After forking and cloning the lab, opening the lab in a text editor, reading the README, running the test suite, reading the errors, and reading the tests themselves in `spec`, you're ready to code. You've armed yourself with every weapon available in the arsenal of your intellect, and we know you can program triumphantly.
 
 You should understand the point of the lab.
 
@@ -126,16 +126,16 @@ You should keep on trying until you get it working. It doesn't matter how many t
 
 You should ask for help on Learn.
 
-Programming is never about getting it all right at once. Programming is like solving a puzzle, you don't try to put it together immediately, you approach it one piece at a time. The workflow we're describing optimizes this process, trial and error, attempts and feedback, insight through failure. Most of our time as programmers is spent staring at error message and code wondering, "Hmm".
+Programming is never about getting it all right at once. Programming is like solving a puzzle: you don't try to put it together immediately; you approach it one piece at a time. The workflow we're describing optimizes this process of trial and error, attempts and feedback, and insight through failure. Most of our time as programmers is spent staring at error messages and code, wondering, "Hmm".
 
 #### Programming in Movies vs Real Life
 <iframe src="https://vine.co/v/hPXTA6l9AqQ/embed/simple" width="600" height="600" frameborder="0"></iframe>
 
 ### 5. Pass your local tests with `learn`
 
-Follow this workflow: running tests, reading errors, writing code, saving code, running tests, reading errors, consulting the README, googling for more context on a topic, writing more code, saving the code, running the tests again, reading errors, and repeat. You'll get it, you'll surprise yourself and find a confidence within you. And if you're stuck or tired and just need some help, Ask a Question and the Learn community will be there for you.
+Follow this workflow: running tests, reading errors, writing code, saving code, running tests, reading errors, consulting the README, googling for more context on a topic, writing more code, saving the code, running the tests again, reading errors, and repeat. You'll get it. You'll surprise yourself, finding a confidence within. And if you're stuck or tired and just need some help, Ask a Question and the Learn community will be there for you.
 
-Eventually your local tests will pass and Learn will indicate your success.
+Eventually your local tests will pass, and Learn will indicate your success.
 ![Pass](https://curriculum-content.s3.amazonaws.com/learn-ver/nitrous_lab_success.png)![Lights](https://curriculum-content.s3.amazonaws.com/learn-ver/local_build_passes.png)
 
 On the left is a passing test run in the terminal. On the right is what the right column in Learn looks like for a passing local test (which we currently call a "Local Build").
@@ -154,17 +154,17 @@ In order to submit your solution to Learn, from the lab's directory in your Term
 learn submit
 ```
 
-That's all it takes, you can run `learn submit` from any lab directory and your solution will be submitted to Learn for review.
+That's all it takes. You can run `learn submit` from any lab directory, and your solution will be submitted to Learn for review.
 
 ![learn submit](https://curriculum-content.s3.amazonaws.com/learn-ver/nitrous_learn_submit_gif.gif)
 
-You'll notice that on Learn, the light labelled "Pull Request" will turn green when your code has been submitted.
+You'll notice that, on Learn, the light labeled "Pull Request" will turn green when your code has been submitted.
 
 ![PR](https://dl.dropboxusercontent.com/s/zw5axlrl07e4yj3/2015-10-02%20at%201.25%20AM.png)
 
 ## What does `learn submit` do?
 
-The `learn submit` and the Learn CLI automate all the low-level `git` interactions. When you type `learn submit`, here's what happens:
+The `learn submit` command and the Learn CLI automate all the low-level `git` interactions. When you type `learn submit`, here's what happens:
 
 1. Your local changes are staged via `git add .` and committed via `git commit -am`.
 2. Your local commits are pushed to your fork on GitHub with `git push`
@@ -172,9 +172,9 @@ The `learn submit` and the Learn CLI automate all the low-level `git` interactio
 
 ## Conclusion
 
-To summarize, the workflow you'll be using to solve labs on Learn:
+To summarize the workflow you'll be using to solve labs on Learn:
 
-Use the Open button (or `learn open`) to fork and clone your lab locally so you can work on it.
+Use the Open button (or `learn open`) to fork and clone your lab locally, so you can work on it.
 Use `learn test` to run your local tests.
 Use `learn submit` to submit your solution.**
 
@@ -183,3 +183,5 @@ You are now ready to practice the Learn workflow with your first lab! Congratula
 <a href='https://learn.co/lessons/learn-cli-workflow-nitrous' data-visibility='hidden'>View this lesson on Learn.co</a>
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/learn-cli-workflow-nitrous'>Learn Workflow</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/learn-cli-workflow-nitrous'>Learn Workflow</a> on Learn.co and start learning to code for free.</p>
